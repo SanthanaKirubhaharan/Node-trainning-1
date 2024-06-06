@@ -1,0 +1,21 @@
+Step 1 : create a git hub account
+
+Step 2 : download the gitbash windows after finish the installing make sure that after right clicking on the desktop ur able to gitbash option
+
+Step 3: login into ur git hub account and create new repository 
+
+step 4 : before proceeding need to add SSH key in ur git hub account below the steps are
+
+	1 = ssh-keygen -t rsa -b 4096 -C "your.email@example.com"
+	2 = cat ~/.ssh/id_rsa.pub
+	3 = Copy the key 
+	4 = Paste it in the settings of git hub accout
+
+Step 5 : established the connection from git hub acoount to ur git bash
+	git config --global user.name "Your Name"
+	git config --global user.email "your.email@example.com"
+	now the setup is completed now one can create clone repository in git bash
+
+Step 6: cloning the repository use below
+	git clone git@github.com:SanthanaKirubhaharan/Node-trainning-1.git
+
